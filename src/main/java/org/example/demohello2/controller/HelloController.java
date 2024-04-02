@@ -21,4 +21,10 @@ public class HelloController {
         return "hello2：" + UUID.randomUUID();
     }
 
+    @GetMapping("/hello3")
+    public String hello3() {
+
+        return "hello3：" + UUID.randomUUID();
+    }
+
 }
